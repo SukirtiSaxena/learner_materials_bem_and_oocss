@@ -1,7 +1,37 @@
-/* You can delete / re-write this img class  */
 
 img {
     max-width: 200px;
 }
 
-/* Happy coding! */
+.container {
+    display: flex;
+}
+
+/* Structure */
+.card {
+    height: 400px;
+    width: 300px;
+    border-style: solid;
+    padding: 30px;
+    margin: 20px;
+    font-size: larger;
+}
+
+/* Skins */
+.cardYoda {
+    border-color: lightgreen;
+    box-shadow: 0 4px 8px 0 cyan;
+}
+
+.cardDarthVader {
+    border-color: black;
+    box-shadow: 0 4px 8px 0 rgb(98, 45, 148);
+}
+
+.cardYoda:hover {
+    box-shadow: 0 8px 16px 0 cyan;
+}
+
+.cardDarthVader:hover {
+    box-shadow: 0 8px 16px 0 rgb(98, 45, 148);
+}
