@@ -1,10 +1,15 @@
 
-img {
+.card__img {
     max-width: 200px;
 }
 
 .container {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.topFont {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; 
 }
 
 /* Structure */
@@ -21,11 +26,21 @@ img {
 .cardYoda {
     border-color: lightgreen;
     box-shadow: 0 4px 8px 0 cyan;
+    color:darkcyan;
 }
 
 .cardDarthVader {
     border-color: black;
     box-shadow: 0 4px 8px 0 rgb(98, 45, 148);
+    color:darkmagenta;
+}
+
+.card__cardDarthVader--header {
+    text-shadow: 0 0 3px #f171d6, 0 0 5px #350429; 
+}
+
+.card__cardYoda--header {
+    text-shadow: 0 0 3px #abe411, 0 0 5px #0bf0f8; 
 }
 
 .cardYoda:hover {
