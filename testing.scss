@@ -1,0 +1,18 @@
+/*testing*/
+$colors:
+  "DS" rgb(241, 148, 164),
+  "M" rgb(235, 112, 131),
+  "AT" rgb(235, 87, 112),
+  "CB" rgb(236, 75, 102),
+  "AV" rgb(246, 52, 84),
+  "RD" rgb(186, 223, 235),
+  "AA" rgb(150, 224, 246),
+  "R" rgb(116, 216, 246),
+  "NN" rgb(78, 204, 243),
+  "MK" rgb(24, 193, 245);
+
+@each $name, $color in $colors {
+  .card__img#{$name}--shadow {
+	box-shadow: 10px 10px 5px $color;
+  }
+}

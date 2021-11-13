@@ -1,0 +1,42 @@
+/*testing*/
+.card__imgDS--shadow {
+  box-shadow: 10px 10px 5px #f194a4;
+}
+
+.card__imgM--shadow {
+  box-shadow: 10px 10px 5px #eb7083;
+}
+
+.card__imgAT--shadow {
+  box-shadow: 10px 10px 5px #eb5770;
+}
+
+.card__imgCB--shadow {
+  box-shadow: 10px 10px 5px #ec4b66;
+}
+
+.card__imgAV--shadow {
+  box-shadow: 10px 10px 5px #f63454;
+}
+
+.card__imgRD--shadow {
+  box-shadow: 10px 10px 5px #badfeb;
+}
+
+.card__imgAA--shadow {
+  box-shadow: 10px 10px 5px #96e0f6;
+}
+
+.card__imgR--shadow {
+  box-shadow: 10px 10px 5px #74d8f6;
+}
+
+.card__imgNN--shadow {
+  box-shadow: 10px 10px 5px #4eccf3;
+}
+
+.card__imgMK--shadow {
+  box-shadow: 10px 10px 5px #18c1f5;
+}
+
+/*# sourceMappingURL=testing.css.map */

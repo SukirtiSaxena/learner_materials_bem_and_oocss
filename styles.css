@@ -31,9 +31,9 @@
     border: none;
     border-radius: 15px;
     font-family: "Serif",Georgia;
-  }
+}
 
-  .card__img {
+.card__img {
     height : 130px;
     width :200 px;
     max-width: 200px;
@@ -121,34 +121,33 @@
     border-radius:190px;
 }
 
-.cardDV__imgDS--shadow {
+.card__imgDS--shadow {
     box-shadow: 10px 10px 5px rgb(241, 148, 164);
 }
-.cardDV__imgM--shadow {
+.card__imgM--shadow {
     box-shadow: 10px 10px 5px rgb(235, 112, 131);
 }
-.cardDV__imgAT--shadow {
+.card__imgAT--shadow {
     box-shadow: 10px 10px 5px rgb(235, 87, 112);
 }
-.cardDV__imgCB--shadow {
+.card__imgCB--shadow {
     box-shadow: 10px 10px 5px rgb(236, 75, 102);
 }
-.cardDV__imgAV--shadow {
+.card__imgAV--shadow {
     box-shadow: 10px 10px 5px rgb(246, 52, 84);
 }
-
-.cardYoda__imgRD--shadow {
+.card__imgRD--shadow {
     box-shadow: 10px 10px 5px rgb(186, 223, 235);
 }
-.cardYoda__imgAA--shadow {
+.card__imgAA--shadow {
     box-shadow: 10px 10px 5px rgb(150, 224, 246);
 }
-.cardYoda__imgR--shadow {
+.card__imgR--shadow {
     box-shadow: 10px 10px 5px rgb(116, 216, 246);
 }
-.cardYoda__imgNN--shadow {
+.card__imgNN--shadow {
     box-shadow: 10px 10px 5px rgb(78, 204, 243);
 }
-.cardYoda__imgMK--shadow {
+.card__imgMK--shadow {
     box-shadow: 10px 10px 5px rgb(24, 193, 245);
 }
