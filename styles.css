@@ -1,14 +1,8 @@
 
 .card__img {
+    height : 130px;
+    width :200 px;
     max-width: 200px;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    font-family: "Serif",Georgia;
 }
 
 .topFont {
@@ -17,12 +11,20 @@
 }
 
 /* Structure */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: "Serif",Georgia;
+}
+
 .card {
-    height: 500px;
+    height: 470px;
     width: 350px;
     border-style: solid;
-    padding: 30px;
-    margin: 20px;
+    padding: 20px;
+    margin: 15px;
     font-size: larger;
 }
 
@@ -38,10 +40,25 @@
   }
 
 /* Skins */
+.containerYoda {
+    border: darkcyan;
+    border-style: solid;
+}
+
+.containerDV {
+    border: darkmagenta;
+    border-style: solid;
+}
+
 .cardYoda {
     border-color: lightgreen;
     box-shadow: 0 4px 8px 0 cyan;
     color:darkcyan;
+}
+
+.card__dimensions {
+    height: 360px;
+    width: 270px;
 }
 
 .buttonYoda {
