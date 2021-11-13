@@ -1,10 +1,4 @@
 
-.card__img {
-    height : 130px;
-    width :200 px;
-    max-width: 200px;
-}
-
 .topFont {
     text-align: center;
     text-shadow: 0 0 3px #1c0edf, 0 0 5px #95deeb; 
@@ -39,6 +33,14 @@
     font-family: "Serif",Georgia;
   }
 
+  .card__img {
+    height : 130px;
+    width :200 px;
+    max-width: 200px;
+    border:2px solid #fff;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
 /* Skins */
 .containerYoda {
     border: darkcyan;
@@ -56,33 +58,10 @@
     color:darkcyan;
 }
 
-.card__dimensions {
-    height: 360px;
-    width: 270px;
-}
-
 .buttonYoda {
     color: white;
     background-color: rgb(63, 238, 63);
     box-shadow: 0 3px 5px cyan;
-}
-
-.buttonYoda:hover {
-    background-color: rgb(45, 179, 45)
-}
-
-.buttonYoda:active {
-    background-color: rgb(36, 136, 36);
-    box-shadow: 0 3px 5px rgba(0, 255, 255, 0.774);
-    transform: translateY(4px);
-}
-
-.cardYoda:hover {
-    box-shadow: 0 8px 16px 0 cyan;
-}
-
-.card__cardDarthVader--header {
-    text-shadow: 0 0 3px #f171d6, 0 0 5px #350429; 
 }
 
 .cardDarthVader {
@@ -97,6 +76,24 @@
     box-shadow: 0 3px 5px rgb(231, 13, 13);
 }
 
+.cardYoda:hover {
+    box-shadow: 0 8px 16px 0 cyan;
+}
+
+.buttonYoda:hover {
+    background-color: rgb(45, 179, 45)
+}
+
+.buttonYoda:active {
+    background-color: rgb(36, 136, 36);
+    box-shadow: 0 3px 5px rgba(0, 255, 255, 0.774);
+    transform: translateY(4px);
+}
+
+.cardDarthVader:hover {
+    box-shadow: 0 8px 16px 0 rgb(98, 45, 148);
+}
+
 .buttonDarthVader:hover {
     background-color: #61094b
 }
@@ -107,10 +104,51 @@
     transform: translateY(4px);
 }
 
-.cardDarthVader:hover {
-    box-shadow: 0 8px 16px 0 rgb(98, 45, 148);
-}
-
 .card__cardYoda--header {
     text-shadow: 0 0 3px #abe411, 0 0 5px #0bf0f8; 
+}
+
+.card__cardDarthVader--header {
+    text-shadow: 0 0 3px #f171d6, 0 0 5px #350429; 
+}
+
+.card__dimensions {
+    height: 360px;
+    width: 270px;
+}
+
+.card__img--shape {
+    border-radius:190px;
+}
+
+.cardDV__imgDS--shadow {
+    box-shadow: 10px 10px 5px rgb(241, 148, 164);
+}
+.cardDV__imgM--shadow {
+    box-shadow: 10px 10px 5px rgb(235, 112, 131);
+}
+.cardDV__imgAT--shadow {
+    box-shadow: 10px 10px 5px rgb(235, 87, 112);
+}
+.cardDV__imgCB--shadow {
+    box-shadow: 10px 10px 5px rgb(236, 75, 102);
+}
+.cardDV__imgAV--shadow {
+    box-shadow: 10px 10px 5px rgb(246, 52, 84);
+}
+
+.cardYoda__imgRD--shadow {
+    box-shadow: 10px 10px 5px rgb(186, 223, 235);
+}
+.cardYoda__imgAA--shadow {
+    box-shadow: 10px 10px 5px rgb(150, 224, 246);
+}
+.cardYoda__imgR--shadow {
+    box-shadow: 10px 10px 5px rgb(116, 216, 246);
+}
+.cardYoda__imgNN--shadow {
+    box-shadow: 10px 10px 5px rgb(78, 204, 243);
+}
+.cardYoda__imgMK--shadow {
+    box-shadow: 10px 10px 5px rgb(24, 193, 245);
 }
