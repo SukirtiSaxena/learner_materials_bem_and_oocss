@@ -1,0 +1,26 @@
+/* Formatting for top two cards */
+
+/* Skins */
+
+$topCardsColorScheme:
+	"Yoda" darkcyan lightgreen cyan white rgb(63, 238, 63),
+	"DarthVader" darkmagenta black rgb(98, 45, 148) rgb(231, 10, 10) rgb(35, 3, 39);
+
+@each $name, $color1, $color2,$color3, $color5, $color6 , $color7 in $topCardsColorScheme {
+	.container#{$name} {
+    	border: $color1;
+    	border-style: solid;
+	}
+	
+	.card#{$name} {
+    	border-color: $color2;
+    	box-shadow: 0 4px 8px 0 $color3;
+    	color: $color1;
+	}
+	
+	.button#{$name} {
+    	color: $color5;
+    	background-color: $color6;
+    	box-shadow: 0 3px 5px $color3;
+	}
+}
