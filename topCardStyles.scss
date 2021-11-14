@@ -9,21 +9,21 @@ $colorHeader:
 "DarthVader" #f171d6 #350429 rgb(98, 45, 148) #61094b #1f0218 rgb(155, 4, 4);
 
 @each $name, $color1, $color2, $color3, $color4, $color5, $color6 in $colorHeader {
-.card__card#{$name}--header {
+  .card__card#{$name}--header {
     text-shadow: 0 0 3px $color1, 0 0 5px $color2; 
   }
 
-.card#{$name}:hover{
+  .card#{$name}:hover{
     box-shadow: 0 8px 16px 0 $color3; 
   }
 
-.button#{$name}:hover{
+  .button#{$name}:hover{
     background-color: $color4; 
   }
 
-.button#{$name}:active {
+  .button#{$name}:active {
     background-color: $color5;
     box-shadow: 0 3px 5px $color6;
     transform: translateY(4px);
-}  
+  }  
 }
