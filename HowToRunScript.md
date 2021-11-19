@@ -1,4 +1,7 @@
+# How to run SASS
 Sass will take your preprocessed file and save it as a normal CSS file that you can use in your website.
+
+## Steps to run .scss file and get .css
 
 Step 1: First install Sass using the options below :
     If you use Node.js, you can install Sass using npm by running -
